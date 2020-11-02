@@ -11,3 +11,4 @@ Just doing as I please
   require(['lib/easytimer/dist/easytimer.min.js'], function (easytimer) {
     var timer = new easytimer.Timer();
 });
+  <p> This is a timer for when I start a new playing repository. </p>
