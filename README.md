@@ -12,3 +12,4 @@ Just doing as I please
     var timer = new easytimer.Timer();
 });
   <p> This is a timer for when I start a new playing repository. </p>
+  <p> This timer does not work so pay it no attention</p>
