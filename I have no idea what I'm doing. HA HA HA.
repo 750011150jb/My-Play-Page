@@ -1,3 +1,24 @@
 https://threejs.org/editor/
 https://www.google.com/search?q=3d+model+download&rlz=1C1JPGB_enUS931US931&oq=3d+model+&aqs=chrome.7.69i59j0i433i457j69i57j0j0i131i433j0j0i131i433j0.13704j0j15&sourceid=chrome&ie=UTF-8&surl=1&safe=active
 https://www.digitalocean.com/community/tutorials/how-to-index-split-and-manipulate-strings-in-javascript
+
+
+
+
+
+
+
+
+
+
+function upper_lower(str) {
+  if (str.length < 3) {
+    return str.toUpperCase();
+  }
+  front_part = (str.substring(0, 3)).toLowerCase();
+  back_part = str.substring(3, str.length);  
+  return front_part + back_part;
+}
+console.log(upper_lower("Python"));
+console.log(upper_lower("Py"));
+console.log(upper_lower("JAVAScript"));
