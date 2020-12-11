@@ -167,3 +167,27 @@ drawEyeBrow(-60)
 drawEyeBrow(60)
 drawEye(-60)
 drawEye(60)
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.avatarImage {
+vertical-align: middle;
+width: 250px;
+height: 250px;
+border-radius: 50%;
+border:3px solid black;
+margin: 10px;
+}
+</style>
+</head>
+<body>
+<h1>Avatar Images Example</h1>
+<img src="https://images.pexels.com/photos/2128807/pexels-photo-2128807.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="avatarImage">
+<img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="avatarImage">
+</body>
+</html>
